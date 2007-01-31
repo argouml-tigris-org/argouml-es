@@ -32,7 +32,7 @@
  -->
 
 <book>
-  <title>ArgoUML Quick Guide (Not yet translated to Spanish)</title>
+  <title>ArgoUML Quick Guide</title>
   <bookinfo>
     <subtitle>Get started with ArgoUML @VERSION@</subtitle>
     <authorgroup>
@@ -56,56 +56,54 @@
       <holder>Michiel van der Wulp</holder>
     </copyright>
     <legalnotice>
-      <para>To be translated to Spanish: 
-        This material may be distributed only subject to the terms and 
-        conditions set forth in the Open Publication License, v1.0 or 
-        later (the latest version is presently available at 
-        http://www.opencontent.org/openpub/).
+      <para>
+      	Este material se puede distribuir solamente conforme a los términos y 
+      	a las condiciones dispuestos en la licencia abierta de la publicación(Open Publication License), v1.0 o
+      	más adelante (la versión más última está actualmente disponible en 
 </para>
     </legalnotice>
   </bookinfo>
   <chapter id="introduction">
-    <title>Introduction (Not yet translated to Spanish)</title>
+    <title>Introduction</title>
     <sect1>
-      <title>Welcome to ArgoUML (Not yet translated to Spanish)</title>
-      <para>To be translated to Spanish: 
-ArgoUML is a powerful yet easy-to-use interactive, graphical software
-design environment that supports the design,
-development and documentation of
-object-oriented software applications.
+      <title>Welcome to ArgoUML</title>
+      <para> 
+ArgoUML es un poderoso ambiente interactivo fácil de usar, 
+de diseño gráfico de software
+que soporta el diseño,
+desarrollo y documentacion de 
+aplicaciones de software orientadas a objeto.
 </para>
-      <para>To be translated to Spanish: 
-If you are familiar with a family of software applications called
-Computer Aided Software Engineering (CASE) tools then you should find
-ArgoUML instantly familiar.
+      <para>Si está familiarizado con el conjunto de herramientas software
+      llamada Ingeniería de Software Asistida por computador 
+      (CASE, de sus siglás en inglés de Computer Aided Software Engineering)
+      entonces de bería encontrar ArgoUML bastante familiar.
 </para>
-
-      <para>To be translated to Spanish: 
-The users of ArgoUML are software designers &amp; architects, software
-developers, business analysts, systems analysts and other
-professionals involved in the analysis, design and development of
-software applications. Main features:
+<para>
+Los usuarios de ArgoUML son diseñadores de software y arquitectos, desarrolladores de software,
+analistas de negocio, analistas de sistema y otros profesionales 
+envueltos en el analisis, diseño y desarrollo de aplicaciones de software. Sus características principales son:
         <itemizedlist>
           <listitem>
-            <para>To be translated to Spanish: 
-Open standards: XMI, SVG and PGML
+            <para>
+Estandares abiertos: XMI, SVG and PGML
 </para>
           </listitem>
           <listitem>
-            <para>To be translated to Spanish: 
-100% Platform independent thanks to the exclusive use of Java
+            <para>
+100% Independiente de la plataforma gracias al uso exclusivo de Java
 </para>
           </listitem>
           <listitem>
-            <para>To be translated to Spanish: 
-Open Source, which allows extending or customizeing.
+            <para>
+Fuente abierta, el cual permite su extensión o personalización.            
 </para>
           </listitem>
           <listitem>
-            <para>To be translated to Spanish: 
-Cognitive features like:
-reflection-in-action, opportunistic design, 
-comprehension and problem solving
+            <para>
+Caracteristicas cognitivas como:
+reflexion-en-acción, diselño oportunistico, 
+comprensión y solucion de problemas        
 </para>
           </listitem>
         </itemizedlist>
