@@ -57,10 +57,7 @@
     </copyright>
     <legalnotice>
       <para>
-      	Este material se puede distribuir solamente conforme a los términos y 
-      	a las condiciones dispuestos en la licencia abierta de la publicación(Open Publication License), v1.0 o
-      	más adelante (la versión más última está actualmente disponible en 
-</para>
+Este material se puede distribuir solamente conforme a los términos y a las condiciones dispuestos en la licencia abierta de publicación(Open Publication License), v1.0 o superior (la versión más actual está disponible en http://www.opencontent.org/openpub/) </para>
     </legalnotice>
   </bookinfo>
   <chapter id="introduction">
@@ -68,25 +65,16 @@
     <sect1>
       <title>Welcome to ArgoUML</title>
       <para> 
-ArgoUML es un poderoso ambiente interactivo fácil de usar, 
-de diseño gráfico de software
-que soporta el diseño,
-desarrollo y documentacion de 
-aplicaciones de software orientadas a objeto.
+ArgoUML es un poderoso ambiente interactivo fácil de usar, de diseño gráfico de software que soporta el diseño, desarrollo y documentacion de aplicaciones de software orientadas a objeto.
 </para>
-      <para>Si está familiarizado con el conjunto de herramientas software
-      llamada Ingeniería de Software Asistida por computador 
-      (CASE, de sus siglás en inglés de Computer Aided Software Engineering)
-      entonces de bería encontrar ArgoUML bastante familiar.
+      <para>Si está familiarizado con el conjunto de herramientas software como las de Ingeniería de Software Asistida por Computador (CASE, de sus siglás en inglés de Computer Aided Software Engineering) entonces de bería encontrar ArgoUML bastante familiar.
 </para>
 <para>
-Los usuarios de ArgoUML son diseñadores de software y arquitectos, desarrolladores de software,
-analistas de negocio, analistas de sistema y otros profesionales 
-envueltos en el analisis, diseño y desarrollo de aplicaciones de software. Sus características principales son:
+Los usuarios de ArgoUML son diseñadores de software y arquitectos, desarrolladores de software, analistas de negocio, analistas de sistema y otros profesionales envueltos en el analisis, diseño y desarrollo de aplicaciones de software. Sus características principales son:
         <itemizedlist>
           <listitem>
             <para>
-Estandares abiertos: XMI, SVG and PGML
+Estándares abiertos: XMI, SVG and PGML
 </para>
           </listitem>
           <listitem>
@@ -101,9 +89,7 @@ Fuente abierta, el cual permite su extensión o personalización.
           </listitem>
           <listitem>
             <para>
-Caracteristicas cognitivas como:
-reflexion-en-acción, diselño oportunistico, 
-comprensión y solucion de problemas        
+Características cognitivas como: reflexión-en-acción, diseño oportunístico, comprensión y solución de problemas        
 </para>
           </listitem>
         </itemizedlist>
@@ -117,142 +103,131 @@ comprensión y solucion de problemas
     ===========================================================
     -->
     <sect1>
-      <title>About this guide... (Not yet translated to Spanish)</title>
-      <para>To be translated to Spanish: 
-                        This guide - the ArgoUML Quick Guide    - is provided to help you get up and running as quickly as 
-                        possible with ArgoUML.
-                        It provides step-by-step instructions 
-                        for obtaining, installing and starting
-                        ArgoUML, performing common tasks, and 
-                        learn more about ArgoUML.
-If you need further details please look in the
+      <title>About this guide...</title>
+      <para> Esta guía - the ArgoUML Quick Guide    - se provee para que pueda 
+      obtener y ejecutar lo más rápidamente posible ArgoUML.
+      Provee instrucciones paso a paso para obtener, instalar y comenzar con ArgoUML,
+       desarrollar tareas comunes, y aprender más de ArgoUML.
+Si necesita mayor detalle por favor mire en el 
 <ulink url="http://argouml.tigris.org/documentation/defaulthtml/manual/">
-User Manual
+User Manual<!-- no fue traducido -->
 </ulink>.
 </para>
     </sect1>
   </chapter>
   
   <chapter id="installation">
-    <title>Installing ArgoUML (Not yet translated to Spanish)</title>
+    <title>Installing ArgoUML</title>
     <sect1>
-      <title>System requirements (Not yet translated to Spanish)</title>
-      <para>To be translated to Spanish: 
-Minimum system requirements:
+      <title>System requirements</title>
+      <para>Requerimientos mínimos de sistema
         <itemizedlist>
           <listitem>
-            <para>To be translated to Spanish: 
-                                  Any Operating System that supports Java.
+            <para>Cualquier sistema operativo que soporte Java
 </para>
           </listitem>
           <listitem>
-            <para>To be translated to Spanish: 10MB of free disk storage space on your hard disk.
+            <para>10MB de espacio libre en el disco duro.
 </para>
           </listitem>
           <listitem>
-            <para>To be translated to Spanish: Mouse (or other pointing device) and a Keyboard.</para>
+            <para>Mouse (u otro dispositivo similar) y teclado.</para>
           </listitem>
           <listitem>
-            <para>To be translated to Spanish: 
-              Java 2 JRE or JDK version 1.4 or higher.
+            <para>
+              Java 2 JRE o JDK versión 1.4 o superior.
 </para>
           </listitem>
         </itemizedlist>
 </para>
     </sect1>
     <sect1>
-      <title>Installation options (Not yet translated to Spanish)</title>
-      <para>To be translated to Spanish: 
-                        Now that you have a computer that can install and run ArgoUML effectively, you need to decide which 
-                        of the installation options available is appropriate for you. You can choose from the following options:
-
+      <title>Installation options</title>
+      <para>Ahora que Ud. tiene un computador en el que puede intalar y ejecutar ArgoUML efectivamente, debe decidir
+      cual de las opciones de instalación disponibles es apropopiada para Ud. Puede escoger entre las siguientes opciones:
         <itemizedlist>
           <listitem>
-            <para>To be translated to Spanish: 
-Java Web Start
+            <para>Java Web Start<!-- no lo traduje al español, ya que se conoce con ese nombre -->
 </para>
-            <para>To be translated to Spanish: 
-This alternative is good for occasional users and tests.
-It is the easiest and quickest way to start using ArgoUML.
-It requires connection to the ArgoUML Web Site.
+            <para>
+            Esta alternativa es buena para los usuarios ocasionales y los revisores. 
+            Esta es la forma más fácil y rápida de para comenzar a utilizar ArgoUML.
+			Requiere una conexion el sitio web de ArgoUML.
 </para>
             <orderedlist>
               <listitem>
-                <para>To be translated to Spanish: 
-Make sure you have 
+                <para>
+Asegurese de tener
 <ulink url="http://java.sun.com/products/javawebstart/">
 Java Web Start
 </ulink>
-installed.
+instalado.
 </para>
               </listitem>
               <listitem>
-                <para>To be translated to Spanish: 
-Follow the Launch ArgoUML-link from the ArgoUML Web Site.
+                <para>
+Siga el enlace que ejecuta ArgoUML desde el sitio web de ArgoUML.
 </para>
               </listitem>
               <listitem>
-                <para>To be translated to Spanish: 
-ArgoUML will be downloaded, cached locally and started.
+                <para>
+ArgoUML será descargado, guardado localmente en caché e iniciado.
 </para>
               </listitem>
               <listitem>
-                <para>To be translated to Spanish: 
-On subsequent starts, the ArgoUML is available also from the
-Java Web Start console 
-(even without being connected to the internet)
-and (if connected) at each start the version is checked
-against that on the web server and updates are automatically
-downloaded.
+                <para>
+De ahí en adelante para comenzar, ArgoUML estará disponible tambien desde la consola
+de Java Web Start (esto sin estar conectado a internet) y (si esta conectado)
+en cada comienzo la versión será revisada a través del servidor web 
+y se descargarán automaticamente sus actualizaciones.
 </para>
               </listitem>
             </orderedlist>
           </listitem>
           <listitem>
-            <para>To be translated to Spanish: 
-Binary distribution
+            <para>Distibución binaria
 </para>
-            <para>To be translated to Spanish: 
-This is good for regular users and guarantees that the
-version of ArgoUML cannot change during the course of your project.
+            <para>
+Esta es buena para los usuarios regulares y  garantiza que la versión 
+no cambie durante el curso de su proyecto.
 </para>
             <orderedlist>
               <listitem>
-                <para>To be translated to Spanish: 
-Make sure that you have a Java 2 JRE installed.
+                <para>
+Asegurese que tiene instalado Java 2 JRE.
 </para>
               </listitem>
               <listitem>
-                <para>To be translated to Spanish: 
-Download the ArgoUML binary distribution from the ArgoUML Web Site.
+                <para>
+Descargue la distribución binaria de ArgoUML desde el sitio web de ArgoUML.
 </para>
-                <para>To be translated to Spanish: 
+                <para>
+                
 This could also include copying it to and from floppy disks or CD's
 in order to get it to the computer if no network connection is
 available.
 </para>
               </listitem>
               <listitem>
-                <para>To be translated to Spanish: 
-Create an ArgoUML installation directory.
+                <para>
+Cree un directorio de instalación de ArgoUML.
 </para>
               </listitem>
               <listitem>
-                <para>To be translated to Spanish: 
-Change the current directory 
-to the ArgoUML installation directory and 
-extract the ArgoUML files to the installation directory.
+                <para>
+Cambie el directorio actual al directorio de instalación de ArgoUML
+y descomprima los archivos de ArgoUML en el directorio de instalación.
 </para>
               </listitem>
               <listitem>
-                <para>To be translated to Spanish: 
-Start by running the <filename>argouml.jar</filename> file, 
-either by simply (double-)clicking on the file, 
-or by executing the following command:
+                <para>
+Comience por ejecutar el archivo <filename>argouml.jar</filename>, 
+a través de un simple doble click en el archivo o ejecutando el siguiente comando:
                   <computeroutput>
 java -jar argouml.jar
 </computeroutput>
-at the command line, or via a batch-file.
+en la linea de mando, o via un archivo batch.
+ <!-- la traducción normal sería archivo de procesamiento por lotes -->
 </para>
 	      </listitem>
 	    </orderedlist>
@@ -262,38 +237,39 @@ at the command line, or via a batch-file.
     </sect1>
     
     <sect1>
-      <title>Installing Auxiliary Modules (Not yet translated to Spanish)</title>
-      <para>To be translated to Spanish: 
-      The standard installation of ArgoUML does not support C++, php and C# code
-      generation. To make this possible, you need to download the 
-      <literal>auxiliary modules</literal> 
-      from the download page at the ArgoUML website.
+      <title>Installing Auxiliary Modules</title>
+      <para>
+      La instalación normal de ArgoUML no soporta la generación de código en C++, php y C#.
+      Para hacer esto posible, necesita descargar los 
+      <literal>módulos auxiliares</literal> 
+      desde la página de descarga del sitio web de ArgoUML.
 </para>
       
-      <para>To be translated to Spanish: 
-      Unpack the downloaded file in the same directory as 
-      you unpacked ArgoUML itself.
+      <para>
+      Descomprima el archivo en el mismo directorio que desempaco 
+      el mismo ArgoUML.
+      
 </para>
       
-      <para>To be translated to Spanish: 
-      The result should be that the directory that contains the
-      <filename>argouml.jar</filename> file, now also contains a subdirectory
-      named <filename>ext</filename>, which contains the
-      <filename>.jar</filename> files for the extra languages.
+      <para>To 
+      El resultado debe ser que el directorio que contiene el archivo
+      <filename>argouml.jar</filename>, ahora tambien contenga un
+      subdirectorio llamado <filename>ext</filename>, el cual contiene los archivos
+      <filename>.jar</filename> para los lenguajes extra.
 </para>
     </sect1>
     
     <sect1>
-      <title>Command Line Options (Not yet translated to Spanish)</title>
+      <title>Command Line Options</title>
       
-      <para>To be translated to Spanish: When starting ArgoUML from a command line, 
-    there are several extra possibilities.
-    Try typing:</para>
+      <para>Cuando ejecute ArgoUML desde la linea de comando,
+    entonces tiene varias posibilidades extra.
+    Pruebe tipiando:</para>
       
-      <para>To be translated to Spanish: <command>java -jar argouml.jar -help</command>
+      <para> <command>java -jar argouml.jar -help</command>
 </para>
       
-      <para>To be translated to Spanish: You will see the instructions:</para>
+      <para>Ud. vería las instrucciones:</para>
       
       <programlisting><![CDATA[
 Usage: [options] [project-file]
@@ -320,7 +296,7 @@ You can also set java settings which influence the behaviour of ArgoUML:
 	  Please beware: the language is in lowercase.
 </para>
       
-      <para>To be translated to Spanish: <command>java -jar argouml.jar -locale en</command>
+      <para> <command>java -jar argouml.jar -locale en</command>
 </para>
       
       <para>To be translated to Spanish:  ArgoUML may be run without UI, in batch mode. 
@@ -337,10 +313,10 @@ You can also set java settings which influence the behaviour of ArgoUML:
 </para>
       
     </sect1>
-    
-    <sect1>
-      <title>Making .zargo-file clickable (on Windows) (Not yet translated to Spanish)</title>
+<sect1>
+      
       <sect1info>
+      
 	<authorgroup>
 	  <author>
 	    <firstname>Ewan</firstname>
@@ -348,7 +324,9 @@ You can also set java settings which influence the behaviour of ArgoUML:
 	    <surname>Grantham</surname>
 	  </author>
 	</authorgroup>
+	
       </sect1info>
+      <title>Making .zargo-file clickable (on Windows) (Not yet translated to Spanish)</title>
       <para>To be translated to Spanish: 
 This works only if you have installed using the binary distribution.
 </para>
