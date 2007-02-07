@@ -57,24 +57,24 @@
     </copyright>
     <legalnotice>
       <para>
-Este material se puede distribuir solamente conforme a los términos y a las condiciones dispuestos en la licencia abierta de publicación(Open Publication License), v1.0 o superior (la versión más actual está disponible en http://www.opencontent.org/openpub/) </para>
+Este material se puede distribuir solamente conforme a los terminos y a las condiciones dispuestos en la licencia abierta de publicacion(Open Publication License), v1.0 o superior (la version mas actual está disponible en http://www.opencontent.org/openpub/) </para>
     </legalnotice>
   </bookinfo>
   <chapter id="introduction">
-    <title>Introduction</title>
+    <title>Introduccion</title>
     <sect1>
-      <title>Welcome to ArgoUML</title>
+      <title>Bienvenido a ArgoUML</title>
       <para> 
-ArgoUML es un poderoso ambiente interactivo fácil de usar, de diseño gráfico de software que soporta el diseño, desarrollo y documentacion de aplicaciones de software orientadas a objeto.
+ArgoUML es un poderoso ambiente interactivo facil de usar, de diseño grafico de software que soporta el diseño, desarrollo y documentacion de aplicaciones de software orientadas a objeto.
 </para>
-      <para>Si está familiarizado con el conjunto de herramientas software como las de Ingeniería de Software Asistida por Computador (CASE, de sus siglás en inglés de Computer Aided Software Engineering) entonces de bería encontrar ArgoUML bastante familiar.
+      <para>Si esta familiarizado con el conjunto de herramientas software como las de Ingeniería de Software Asistida por Computador (CASE, de sus siglas en ingles de Computer Aided Software Engineering) entonces de bería encontrar ArgoUML bastante familiar.
 </para>
 <para>
 Los usuarios de ArgoUML son diseñadores de software y arquitectos, desarrolladores de software, analistas de negocio, analistas de sistema y otros profesionales envueltos en el analisis, diseño y desarrollo de aplicaciones de software. Sus características principales son:
         <itemizedlist>
           <listitem>
             <para>
-Estándares abiertos: XMI, SVG and PGML
+Estandares abiertos: XMI, SVG and PGML
 </para>
           </listitem>
           <listitem>
@@ -84,12 +84,12 @@ Estándares abiertos: XMI, SVG and PGML
           </listitem>
           <listitem>
             <para>
-Fuente abierta, el cual permite su extensión o personalización.            
+Fuente abierta, el cual permite su extension o personalizacion.            
 </para>
           </listitem>
           <listitem>
             <para>
-Características cognitivas como: reflexión-en-acción, diseño oportunístico, comprensión y solución de problemas        
+Características cognitivas como: reflexion-en-accion, diseño oportunístico, comprension y solucion de problemas        
 </para>
           </listitem>
         </itemizedlist>
@@ -103,11 +103,11 @@ Características cognitivas como: reflexión-en-acción, diseño oportunístico,
     ===========================================================
     -->
     <sect1>
-      <title>About this guide...</title>
+      <title>Acerca de Esta Guia...</title>
       <para> Esta guía - the ArgoUML Quick Guide    - se provee para que pueda 
-      obtener y ejecutar lo más rápidamente posible ArgoUML.
+      obtener y ejecutar lo mas rapidamente posible ArgoUML.
       Provee instrucciones paso a paso para obtener, instalar y comenzar con ArgoUML,
-       desarrollar tareas comunes, y aprender más de ArgoUML.
+       desarrollar tareas comunes, y aprender mas de ArgoUML.
 Si necesita mayor detalle por favor mire en el 
 <ulink url="http://argouml.tigris.org/documentation/defaulthtml/manual/">
 User Manual<!-- no fue traducido -->
@@ -117,10 +117,10 @@ User Manual<!-- no fue traducido -->
   </chapter>
   
   <chapter id="installation">
-    <title>Installing ArgoUML</title>
+    <title>Instalando ArgoUML</title>
     <sect1>
-      <title>System requirements</title>
-      <para>Requerimientos mínimos de sistema
+      <title>Requerimientos de Sistema</title>
+      <para>Requerimientos minimos de sistema
         <itemizedlist>
           <listitem>
             <para>Cualquier sistema operativo que soporte Java
@@ -135,23 +135,23 @@ User Manual<!-- no fue traducido -->
           </listitem>
           <listitem>
             <para>
-              Java 2 JRE o JDK versión 1.4 o superior.
+              Java 2 JRE o JDK version 1.4 o superior.
 </para>
           </listitem>
         </itemizedlist>
 </para>
     </sect1>
     <sect1>
-      <title>Installation options</title>
+      <title>Opcion de Instalacio</title>
       <para>Ahora que Ud. tiene un computador en el que puede intalar y ejecutar ArgoUML efectivamente, debe decidir
-      cual de las opciones de instalación disponibles es apropopiada para Ud. Puede escoger entre las siguientes opciones:
+      cual de las opciones de instalacion disponibles es apropopiada para Ud. Puede escoger entre las siguientes opciones:
         <itemizedlist>
           <listitem>
             <para>Java Web Start<!-- no lo traduje al español, ya que se conoce con ese nombre -->
 </para>
             <para>
             Esta alternativa es buena para los usuarios ocasionales y los revisores. 
-            Esta es la forma más fácil y rápida de para comenzar a utilizar ArgoUML.
+            Esta es la forma mas facil y rapida de para comenzar a utilizar ArgoUML.
 			Requiere una conexion el sitio web de ArgoUML.
 </para>
             <orderedlist>
@@ -171,24 +171,24 @@ Siga el enlace que ejecuta ArgoUML desde el sitio web de ArgoUML.
               </listitem>
               <listitem>
                 <para>
-ArgoUML será descargado, guardado localmente en caché e iniciado.
+ArgoUML sera descargado, guardado localmente en cache e iniciado.
 </para>
               </listitem>
               <listitem>
                 <para>
-De ahí en adelante para comenzar, ArgoUML estará disponible tambien desde la consola
+De ahi en adelante para comenzar, ArgoUML estara disponible tambien desde la consola
 de Java Web Start (esto sin estar conectado a internet) y (si esta conectado)
-en cada comienzo la versión será revisada a través del servidor web 
-y se descargarán automaticamente sus actualizaciones.
+en cada comienzo la version sera revisada a traves del servidor web 
+y se descargaran automaticamente sus actualizaciones.
 </para>
               </listitem>
             </orderedlist>
           </listitem>
           <listitem>
-            <para>Distibución binaria
+            <para>Distibucion binaria
 </para>
             <para>
-Esta es buena para los usuarios regulares y  garantiza que la versión 
+Esta es buena para los usuarios regulares y  garantiza que la version 
 no cambie durante el curso de su proyecto.
 </para>
             <orderedlist>
@@ -199,35 +199,33 @@ Asegurese que tiene instalado Java 2 JRE.
               </listitem>
               <listitem>
                 <para>
-Descargue la distribución binaria de ArgoUML desde el sitio web de ArgoUML.
+Descargue la distribucion binaria de ArgoUML desde el sitio web de ArgoUML.
 </para>
                 <para>
-                
-This could also include copying it to and from floppy disks or CD's
-in order to get it to the computer if no network connection is
-available.
+Podria tambien incluir una copia a traves de disco o CD's de forma de 
+llevarlos a computadores que no tengan una conexion de red disponible.
 </para>
               </listitem>
               <listitem>
                 <para>
-Cree un directorio de instalación de ArgoUML.
+Cree un directorio de instalacion de ArgoUML.
 </para>
               </listitem>
               <listitem>
                 <para>
-Cambie el directorio actual al directorio de instalación de ArgoUML
-y descomprima los archivos de ArgoUML en el directorio de instalación.
+Cambie el directorio actual al directorio de instalacion de ArgoUML
+y descomprima los archivos de ArgoUML en el directorio de instalacion.
 </para>
               </listitem>
               <listitem>
                 <para>
 Comience por ejecutar el archivo <filename>argouml.jar</filename>, 
-a través de un simple doble click en el archivo o ejecutando el siguiente comando:
+a traves de un simple doble click en el archivo o ejecutando el siguiente comando:
                   <computeroutput>
 java -jar argouml.jar
 </computeroutput>
 en la linea de mando, o via un archivo batch.
- <!-- la traducción normal sería archivo de procesamiento por lotes -->
+ <!-- la traduccion normal seria archivo de procesamiento por lotes -->
 </para>
 	      </listitem>
 	    </orderedlist>
@@ -237,12 +235,12 @@ en la linea de mando, o via un archivo batch.
     </sect1>
     
     <sect1>
-      <title>Installing Auxiliary Modules</title>
+      <title>Instalando Modulos Auxiliares</title>
       <para>
-      La instalación normal de ArgoUML no soporta la generación de código en C++, php y C#.
+      La instalacion normal de ArgoUML no soporta la generacion de codigo en C++, php y C#.
       Para hacer esto posible, necesita descargar los 
-      <literal>módulos auxiliares</literal> 
-      desde la página de descarga del sitio web de ArgoUML.
+      <literal>modulos auxiliares</literal> 
+      desde la pagina de descarga del sitio web de ArgoUML.
 </para>
       
       <para>
@@ -251,7 +249,7 @@ en la linea de mando, o via un archivo batch.
       
 </para>
       
-      <para>To 
+      <para>
       El resultado debe ser que el directorio que contiene el archivo
       <filename>argouml.jar</filename>, ahora tambien contenga un
       subdirectorio llamado <filename>ext</filename>, el cual contiene los archivos
@@ -260,7 +258,7 @@ en la linea de mando, o via un archivo batch.
     </sect1>
     
     <sect1>
-      <title>Command Line Options</title>
+      <title>Opciones de Lia de Comandos</title>
       
       <para>Cuando ejecute ArgoUML desde la linea de comando,
     entonces tiene varias posibilidades extra.
@@ -269,7 +267,7 @@ en la linea de mando, o via un archivo batch.
       <para> <command>java -jar argouml.jar -help</command>
 </para>
       
-      <para>Ud. vería las instrucciones:</para>
+      <para>Ud. veria las instrucciones:</para>
       
       <programlisting><![CDATA[
 Usage: [options] [project-file]
@@ -291,25 +289,28 @@ You can also set java settings which influence the behaviour of ArgoUML:
   -Xms250M -Xmx500M  [makes ArgoUML reserve more memory for large projects]]]>
     </programlisting>
       
-      <para>To be translated to Spanish:  A common problem is that the User Interface is shown in the wrong language. 
-	  Below is an easy way to switch back to the English UI. 
-	  Please beware: the language is in lowercase.
+      <para>
+      Un problema comun de la interfaz de usuario es que se muestre en un lenguaje erroneo.
+      Existe una forma facil de intercambiarse a una UI (Interfaz de usuario, del ingles User Interface)
+      <!-- comentario adicional no pertenece a una traduccion directa -->
+	  Por favor cuidado: el lenguaje esta en minusculas.
 </para>
       
       <para> <command>java -jar argouml.jar -locale en</command>
 </para>
       
-      <para>To be translated to Spanish:  ArgoUML may be run without UI, in batch mode. 
-	  Currently the possibilities are very limited. 
-	  Below is an example (everything on 1 line!): 
-	  It reads a "test.zargo" from my working directory, 
-	  gets the diagram named "A", 
-	  and writes a PNG graphical file for this diagram. 
-	  Without the "-batch", 
-	  ArgoUML would start up the UI after executing the commands. 
+      <para>
+      ArgoUML puede ser ejecutado sin UI, en modo batch. <!-- batch no fue traducido -->
+	  Actualmente las posibilidades son muy limitadas.
+	  El siguiente es un ejemplo (¡todo en 1 linea!):
+	  Esto lee un "test.zargo" desde mu directorio de trabajo,
+	  obtiene un diagrama llamado "A",
+	  y escribe un archivo grafico de este diagrama.
+	  Sin el "-batch",
+	  ArgoUML debe iniciare la UI despues de ejecutar los comandos.
 </para>
       
-      <para>To be translated to Spanish: <command>java -jar argouml.jar -batch -command "org.argouml.uml.ui.ActionOpenProject=c:\Documents and Settings\Michiel\My Documents\test.zargo" -command org.argouml.ui.cmd.ActionGotoDiagram=A -command "org.argouml.uml.ui.ActionSaveGraphics=c:\Documents and Settings\Michiel\My Documents\test.PNG"</command>
+      <para><command>java -jar argouml.jar -batch -command "org.argouml.uml.ui.ActionOpenProject=c:\Documents and Settings\Michiel\My Documents\test.zargo" -command org.argouml.ui.cmd.ActionGotoDiagram=A -command "org.argouml.uml.ui.ActionSaveGraphics=c:\Documents and Settings\Michiel\My Documents\test.PNG"</command>
 </para>
       
     </sect1>
@@ -326,166 +327,162 @@ You can also set java settings which influence the behaviour of ArgoUML:
 	</authorgroup>
 	
       </sect1info>
-      <title>Making .zargo-file clickable (on Windows) (Not yet translated to Spanish)</title>
-      <para>To be translated to Spanish: 
-This works only if you have installed using the binary distribution.
+      <title>Haciend el archivo .zargo clickable (sobre Windows)</title>
+      <para>
+Esto funciona solo si esta usando instalada la distribucion binaria.
 </para>
-      <para>To be translated to Spanish: 
-First, find a Zargo file, and right-click on it.
-You should get the normal Windows menu, including an Open or Open With option.
-At this point, give a description for the file like "ArgoUML Model", 
-and tell Windows to use Notepad to open the file.
-That's not what you want to do ultimately, but it does get Windows to
-accept the .zargo extension as representing a valid file type.
+      <para>
+Primero, encuentre un archivo Zargo, y haga click con el boton derecho sobre el.
+Deberia aparecer un menu normal de Windows, incluyendo las opciones Abrir o Abrir con.
+En este punto, entrege una descripcion para el archivo asi como  "modelo ArgoUML",
+y digale a Windows que use el Block de Notas (Notepad) para abrir el archivo.
+Esto no es lo que desea finalmente, pero le dice a Windows que
+acepte la extension .zargo como representacion de un tipo de archivo valido.
 </para>
-      <para>To be translated to Spanish: 
-Now, open Windows Explorer and from the menu select View->Options 
-(or on Windows XP: Tools->Folder Options...). 
-You
-should get a two (or more) tabbed dialog. Click the "File Types" dialog, and
-then scroll through the list for the Description you gave - in the example
-"ArgoUML Model". Click to select that file type, and then click the "Edit"
-button.
+      <para>
+Ahora, abra el Explorador de Windows y desde el menu seleciones Ver->Opciones 
+(o en Windows XP: Herramientas-> Opciones de carpeta...).
+Debe obtener dos (o mas) dialogos tabulares. Haga click en el dialogo "Tipos de Archivo", y
+entonces haga scroll a traves de la lista hasta la descripcion dada por Ud. - en el ejemplo
+"modelo ArgoUML". Haga click para seleccionar el archivo, y entonces haga click en 
+el boton "Editar".
 </para>
-      <para>To be translated to Spanish: 
-Now, click on the "Open" action and then the "Edit" button there. You will
-then get a dialog that has a line for entering in the application action
-which will have a line for using Notepad to open the file. Replace that line
-with:
+      <para>
+Ahora, haga click sobre la accion "Abrir" y entonces presiones el boton "Editar".
+Deberia obtener un dialogo que tiene una linea para ingresar la accion de la aplicacion
+la cual tendria una linea usando el Block de notas (Notepad) para abrir el archivo.
+Reemplace la linea con:
 <command>
 "C:\Program Files\Java\j2re1.4.0_01\bin\javaw.exe" -jar "c:\ArgoUML\argouml.jar" "%L"
 </command>
 </para>
-      <para>To be translated to Spanish: 
-Substitute your path to your <filename>javaw.exe</filename> and 
-<filename>argouml.jar</filename> files if they are 
-in a different location.
-Click OK, then click OK, then click OK (three buttons on
-three different levels of the dialog).
+      <para>
+Subtituya su ruta (path) por su <filename>javaw.exe</filename> y
+archivo  si estos estan en ubicaciones diferentes.
+Haga click en OK, y haga click en OK, y haga click en OK (tres botones
+de tres diferentes niveles de dialogo).
 </para>
-      <para>To be translated to Spanish: The %L in the above commandline is needed instead of %1 
-because that is the way to
-support filename extensions of more than 3 characters.
+      <para>
+La %L en la linea de comando anterior es necesaria en lugar de %1
+porque esta es la forma para
+soportar extensiones de mas de tres caracteres.
 </para>
     </sect1>
     
   </chapter>
   
   <chapter id="running">
-    <title>ArgoUML Principles (Not yet translated to Spanish)</title>
-    <para>To be translated to Spanish: 
-    When ArgoUML starts, then it shows an empty class diagram
-    on which you can add various objects. ArgoUML works according the following
-    principles:
+    <title>Principios de ArgoUML</title>
+    <para>
+    Cuando ArgoUML comienza, entonces se muestra un diagrama de clases vacio 
+    al cual puede añadir varios objetos. ArgoUML trabaja de acuerdo a los siguientes
+    principios:
 </para>
     
     <section>
-      <title>Project, Model and Diagram (Not yet translated to Spanish)</title>
-      <para>To be translated to Spanish: 
-      The file operations save and open handle one 
-      <literal>project</literal> at a
-      time. One <literal>project</literal> corresponds to a
-      <literal>model</literal> plus diagram information, 
-      i.e. everything you can edit within the ArgoUML window. 
+      <title>Proyecto, Modelo y Diagrama</title>
+      <para>
+      Las operaciones de guardar y abrir manejan un 
+      <literal>proyecto</literal> a la vez.
+      Un <literal>proyecto</literal> corresponde a un 
+      <literal>modelo</literal> mas la informacion del diagrama
+      i.e. todas las cosas que puedes editar a traves de la ventana ArgoUML.
 </para>
-      <para>To be translated to Spanish: 
-      The <literal>model</literal> may contain many
-      objects (ModelElements) which
-      form the complete UML description 
-      of the system you are describing.
-      All ModelElements might be present on a diagram, 
-      but this is not required. 
-      Hence, the <literal>model</literal> 
-      that is stored in ArgoUML is
-      independent of the contents of the diagrams. 
-      This may be explained by the possibility 
-      to generate programming code from the 
-      <literal>model</literal> - you 
-      do not need any diagrams for this.
+      <para>
+ 		El <literal>modelo</literal> puede contener muchos
+ 		objetos (ModelElements, elementos de modelo) los cuales
+ 		completan una descripcion UML de 
+ 		un sistema que esta describiendo.
+ 		Todos los ModelElements deben ser presentados en el diagrama,
+ 		pero esto no es requerido.
+ 		Por lo tanto, el <literal>modelo</literal> 
+ 		que es guardado en ArgoUML es independiente del contenido de los diagramas. 
+ 		Esto puede ser explicado por la posibilidad
+ 		para generar codigo de programa desde el 
+      <literal>modelo</literal> - no necesita 
+      ningun diagrama para esto.
 </para>
-      <para>To be translated to Spanish: 
-      A ArgoUML <literal>project</literal> also contains 
-      all diagram information, i.e.
-      the shapes (presentation) used 
-      to represent the various UML ModelElements, 
-      their location, color, etc. 
-      Some ModelElements appear on multiple diagrams, 
-      some on one or none.
+      <para>
+      El <literal>proyecto</literal> ArgoUML tambien contiene
+      toda la informacion del diagrama, i.e. 
+      las figuras (presentacion) usadas
+      para representar varios UML  ModelElements, <!-- no taducido -->
+      su ubicacion, color, etc. 
+      Algunos ModelElements aparecen sobre multiples diagramas,
+      algunos solo en uno o ninguno.
 </para>
-      <para>To be translated to Spanish: 
-      Hence, saving and opening projects 
-      retains all this information. 
-      There is a way to only save the 
-      <literal>model</literal> information
-      though, which is by the menu 
-      "Tools" -> "Export as XMI...". 
-      This may be usefull e.g. 
-      when generating programming code 
-      with an external tool 
-      that understands XMI.
+      <para>
+      Por lo tanto, los proyectos guadandolos y abriendolos
+      retienen toda esta informacion.
+      Esta es una forma para solo guardar la
+      informacion del <literal>modelo</literal>,
+      la cual es a traves del menu 
+      "Herramientas"->"Expoter como XMI...".
+      Esto puede ser util e.g.
+      cuando genera codigo programado 
+      con una herramienta externa
+      que entiende XMI.
 </para>
     </section>
     
     <section>
-      <title>Objects (Not yet translated to Spanish)</title>
-      <para>To be translated to Spanish: 
-      Select objects by left-clicking on them.
-      The functionality of ArgoUML can be activated in the menu, 
-      in toolbars,
-      or in pop-up menus when right-clicking above an object.
-      Many of these functions work on the selected objects.
+      <title>Objetos</title>
+      <para>
+      Selecciones objetos a traves de un click en el booton izquierdo sobre ellos.
+      La funcionalidad de ArgoUML puede ser activada en el menu,
+      en las barras de herramientas, 
+      o en los menu pop-up cuando se presiona un click sobre el boton derecho sobre un objeto.
+      Muchos de estas funciones trabajan sobre los objetos seleccionados
 </para>
-      <para>To be translated to Spanish: 
-      All diagrams have toolbars at the top which are used 
-      to create objects on the diagram.
+      <para>
+      Todos los diagramas tienen barras de herramientas en el tope las cuales son usadas
+      para crear objetos en el diagrama.
 </para>
-      <para>To be translated to Spanish: 
-      Most objects can be added to a diagram and removed from a diagram without
-      deleting it from the <literal>model</literal>! 
-      Select an object on a diagram, and then the menu item 
-      "Edit" -> "Remove from Diagram" clears the object from the diagram, 
-      but the object remains intact in the model, 
-      which may be seen in the explorer, 
-      i.e. the tree structure at the left hand side.
-      Once removed, and item can be added back to the diagram 
-      (or any other diagram for that matter)
-      by selecting it in the explorer 
-      and selecting the item "Add to Diagram" 
-      in the right-click pop-up menu.
+      <para>
+      Muchos objetos pueden ser adicionados a un diagrama y removidos des un diagrama ¡sin
+      borrarlo desde el <literal>modelo</literal>!
+      Seleccione un objeto desde el diagrama, y entonces desde el item de menu
+      "Editar"-> "Remover del diagrama" limpia el objeto desde el diagrama,
+      pero el objeto se conserva intacto en el modelo,
+      el cual puede ser visto en el explorador,
+      i.e. en la estructura de arbol al lado de la mano izquierda.
+      Una vez removido, el item puede volver a ser adicionado al diagrama 
+      (o a cualquier otro diagrama para ello)
+      por la seleccion a traves del explorador
+      y seleccionando el item "Adicionar a Diagrama"
+      en el menu pop-up al hacer click con el boton derecho.
 </para>
     </section>
     
     <section>
-      <title>Overview of the window (Not yet translated to Spanish)</title>
-      <para>To be translated to Spanish: 
-      The top of the window contains a menu bar with commands available.
-      In the <literal>File</literal> menu you can store the project or 
-      open another project instead.
+      <title>Resumen de la Ventana</title>
+      <para>
+      El tope de la ventabna contiene una barra de menus con los comandos disponibles.
+      En el menu <literal>Archivo</literal> puede guardar el proyecto o
+      abrir otro proyecto en lugar de eso.
 </para>
-      <para>To be translated to Spanish: 
-      The upper left part of the ArgoUML window shows a tree model 
-      of diagrams and objects. 
-      This view can be adapted to your needs 
-      by filtering the objects that are shown, 
-      and the structure in which they are shown.
+      <para>
+      La parte superior izquierda de la ventana de ArgoUML muestra un arbol 
+      de diagramas y objetos del modelo.
+      Esta vista puede se adaptada a sus necesidades
+      a traves de los filtros de los objetos que se estan mostrando,
+      y la estructura en la cual ellos estan siendo mostrados.
 </para>
-      <para>To be translated to Spanish: 
-      The upper right part of ArgoUML shows the current diagram (one at a time).
-      You can drag and drop the objects in the diagrams,
-      and you can use the quick-links 
-      that appear when hovering over a selected object 
-      to create new objects connected to the
-      already present objects.
+      <para>
+      La parte superior derecha de ArgoUML muestra el diagrama actual (uno a la vez).
+      Puede arrastrar y soltar los objetos en los diagramas,
+      y puede usar los enlaces rapidos 
+      que aparecen cuando pasa por encima del objetos seleccionados
+      para crear nuevos objetos conectado a los objetos que ya estan presentes.
 </para>
-      <para>To be translated to Spanish: 
-      The lower right part contains various details of the currently selected 
-      object: You select the object in one of the upper
-      levels and choose what details you want to examine using the
-      tabs.
+      <para>
+      La parte inferior derecha contienen varios detalles de el objeto
+      actualmente seleccionado: Selecciones el objeto en uno de sus niveles superiores
+      y escoja que detalles desea examinar usando los tabuladores.
 </para>
-      <para>To be translated to Spanish: 
-      The lower left part contains a list of all ToDo items for this
-      model.
+      <para>
+      La parte inferior izquierda contiene una lista de items Todo (por hacer) para 
+      el modelo.
 </para>
     </section>
     
