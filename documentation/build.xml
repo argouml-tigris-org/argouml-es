@@ -18,7 +18,7 @@
   <property file="${user.home}/argouml.build.properties"/>
   <property file="${override.build.properties}"/>
   <!-- Fallback definition for argo.src.dir - won't override current value -->
-  <property name="argo.src.dir" value="${argo.root.dir}/src_new"/>
+  <property name="argo.src.dir" value="${argo.root.dir}/src"/>
   <property file="${argo.src.dir}/default.properties"/>
   <!-- our defaults depend on and don't override main props, so they go 2nd -->
   <property file="default.properties"/>
