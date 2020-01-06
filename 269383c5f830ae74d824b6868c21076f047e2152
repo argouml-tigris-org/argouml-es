@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "694284fa_d7f010fb",
+        "filename": "tests/org/argouml/i18n/TestEsKeys.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1016795
+      },
+      "writtenOn": "2020-01-06T12:50:30Z",
+      "side": 1,
+      "message": "Same line.",
+      "revId": "269383c5f830ae74d824b6868c21076f047e2152",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
